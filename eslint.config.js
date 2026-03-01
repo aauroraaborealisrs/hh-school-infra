@@ -21,6 +21,7 @@ export default defineConfig([
         },
         rules: {
             'no-const-assign': 'error',
+            'react-hooks/set-state-in-effect': 'off',
         },
     },
 ]);
